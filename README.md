@@ -34,6 +34,10 @@ Clean layering: Controller → Request → Service → Repository → Model/Enum
 git clone https://github.com/DevAhmedRashad/palm_outsourcing_backend-.git
 cd palm_outsourcing_backend-
 
+git fetch origin
+# Prefer Git 2.37+: 'git switch'
+git switch feature/add-task-into-db
+
 # 2) Install PHP dependencies
 composer install
 
