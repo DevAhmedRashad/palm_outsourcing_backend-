@@ -2,13 +2,20 @@
 
 namespace App\Repositories\Contracts;
 
-use App\Domain\Tasks\Task;
+use App\Models\Task;
+use Illuminate\Database\Eloquent\Collection;
 
 interface TaskRepositoryInterface
 {
     /**
      * Fetch all tasks
-     * @return Task[]
+     * @return Collection
      */
-    public function all(): array;
+    public function all(): Collection;
+
+    /**
+     * @param array $data
+     * @return Task
+     */
+    public function create(array $data): Task;
 }
