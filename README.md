@@ -17,8 +17,8 @@ A minimal **Laravel** API that serves a hard‑coded list of tasks.
 
 ```bash
 # 1) Clone
-git clone https://github.com/<your-user-or-org>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/DevAhmedRashad/palm_outsourcing_backend-.git
+cd palm_outsourcing_backend-
 
 # 2) Install PHP dependencies
 composer install
